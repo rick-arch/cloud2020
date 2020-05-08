@@ -22,7 +22,7 @@ spring:
         output: #这个名字是一个通道的名字
           destination: studyExchange #表示使用的Exchange名称定义
           content-type: application/json #设置消息类型，文本可以设置为：text/plain
-          #binder: defaultRabbit #设置要要绑定的消息服务的具体设置
+          binder: defaultRabbit #设置要要绑定的消息服务的具体设置
 
 eureka:
   client:
