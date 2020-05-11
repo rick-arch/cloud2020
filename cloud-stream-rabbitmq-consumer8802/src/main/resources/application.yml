@@ -32,5 +32,5 @@ eureka:
   instance:
     lease-renewal-interval-in-seconds: 2 #设置心跳的时间间隔，默认30秒
     lease-expiration-duration-in-seconds: 5
-    instance-id:  receive-8002.com #在消息列表显示主机名称
+    instance-id:  receive-8802.com #在消息列表显示主机名称
     prefer-ip-address: true #访问路径变为ip地址
