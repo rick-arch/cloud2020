@@ -16,6 +16,11 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
+<!--        包含sleuth 和zipkin-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
         <!-- 引入自定义的通用jar-->
         <dependency>
             <groupId>com.atguigu.springcloud</groupId>
