@@ -11,6 +11,7 @@ spring:
     sampler:
       probability: 1
 
+
 eureka:
   client:
     #是否从EurekaServer抓取已有的注册信息，默认为true，单节点无所谓，集群必须设置为true，才能和ribbon丝后用负载均衡
